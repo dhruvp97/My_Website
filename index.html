@@ -3,37 +3,38 @@
     <head>
         <title> Dhruv Patel </title>
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font.awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="/css/bootstrap.css">
         <link rel="stylesheet" href="/css/styles.css">
     </head>
 
     <body>
         
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-black">
-                <a class="navbar-brand" href="#">MY WEBSITE</a>
+        <div class="container-fluid">
+            <nav id= "mainNav" class="navbar navbar-expand-lg navbar-dark bg-black">
+                <a class="navbar-brand js-scroll-trigger" href="#Jumbotron">MY WEBSITE</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Skills <span class="sr-only">(current)</span></a>
+                            <a class="nav-link js-scroll-trigger" href="#Skills">Skills <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Education</a>
+                            <a class="nav-link js-scroll-trigger" href="#Education">Education</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Experience</a>
+                            <a class="nav-link js-scroll-trigger" href="#Experience">Experience</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Projects</a>
+                            <a class="nav-link js-scroll-trigger" href="#Projects">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#Contact">Contact</a>
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
@@ -42,27 +43,68 @@
                     </form>
                 </div>
             </nav>
+        </div>
 
+        <div class="container-fluid">
+            <section id="Jumbotron">
             <div style= "background: transparent !important" class="jumbotron">
                 <h1 class="text-white display-4">Welcome!</h1>
                 <p class="text-white lead">Content is coming soon! So, stay tuned for future updates.</p>
                 <hr class="my-4">
                 <a class="btn btn-outline-primary my-2 my-sm-0" href="#" role="button">Resume/CV</a>
             </div> 
+            </section>
+        </div> 
 
-           
-
+        <div class="container-fluid">
+            <section id="Skills">
             <div class="row"> 
-                <div class="col">
+                <div class="col-3 mr-0 pr-0">
                     <div style="background: transparent !important" class="card" style="width: 18rem;">
                         <div class="card-body">
                             <h1 class="py-auto text-white text-left display-4 my-5 py-5">
-                                <font size="6"><b>01.</b> SKILLS </font>
+                                <font size="6">PROGRAMMING</font>
                             </h1>
                         </div>
                     </div>
                 </div>
-                <div class="col-8">
+                <div class="col-3">
+                    <p class="lead text-white my-0">SKILL 1</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" 
+                            role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 35%"></div>
+                    </div>
+                    <p class="lead text-white my-0">SKILL 2</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" 
+                            role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                    </div>
+                    <p class="lead text-white my-0">SKILL 3</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" 
+                            role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 25%"></div>
+                    </div>
+                    <p class="lead text-white my-0">SKILL 4</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" 
+                            role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 55%"></div>
+                    </div>
+                    <p class="lead text-white my-0">SKILL 5</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" 
+                            role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="col-2">
+                        <div style="background: transparent !important" class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <h1 class="py-auto text-white text-left display-4 my-5 py-5">
+                                    <font size="6">SOFTWARE</font>
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-3">
                     <p class="lead text-white my-0">SKILL 1</p>
                     <div class="progress mb-3">
                         <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" 
@@ -90,18 +132,21 @@
                     </div>
                 </div>
             </div>
-
+            </section>
+        </div>
             <hr class="my-4 bg-black">
-            
+        
+        <div class="container-fluid">
+            <section id ="Education">
             <div class="row">
-                <div class="col">
+                <div class="col-3">
                     <div class="card-body">
                         <h1 class="py-auto text-white text-left display-4">
-                            <font size="6"><b>02.</b> EDUCATION </font>
+                            <font size="6">EDUCATION </font>
                         </h1>
                     </div>
                 </div>
-                <div class="col-8">
+                <div class="col-8 pr-5 mr-5">
                     <div class="row gutter-1">
                         <div class="col-6">
                             <div class="border border-info p-2 p-md-4 mb-4">
@@ -120,18 +165,22 @@
                     </div>
                 </div>
             </div>
-            
+            </section>
+        </div>
+
             <hr class="my-4 bg-black">
 
+        <div class ="container-fluid"> 
+            <section id ="Experience">
             <div class="row">
-                <div class="col">
+                <div class="col-3">
                     <div class="card-body">
                         <h1 class="py-auto text-white text-left display-4 my-5 py-5">
-                            <font size="6"><b>03.</b> EXPERIENCE </font>
+                            <font size="6">EXPERIENCE </font>
                         </h1>
                     </div>
                 </div>
-                <div class="col-8">
+                <div class="col-8 pl-4 pr-5 mr-5">
                     <div class="border border-dark row mb-0 align-items-center justify-content-between p-2 p-md-4">
                         <div class="col-3 col-md-2 pb-2 pb-md-0 text-white">
                             <p class ="lead"><font size="5">UBER</font></p>
@@ -164,13 +213,169 @@
                     </div>
                 </div>
             </div>
+            </section>
+        </div>
+            <hr class="my-4 bg-black">
 
+        <div class="container-fluid">
+            <section id="Projects">
             <div class = "row">
-                1
-            </div>
+                <div class="col-3">
+                    <div class="card-body">
+                        <h1 class="py-auto text-white text-left display-4 my-5 py-5">
+                            <font size="6">PROJECTS </font>
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-8 mr-5">
+                    <button style="height:100px;width:300px;" type="button" class="btn btn-outline-primary my-2 mx-2" data-toggle="modal" data-target="#Project1">
+                        <h5 class ="lead mb-0 text-primary">Project 1</h5>
+                        <span class="text-white small">Language: C++</span>
+                    </button>
+                    <button style="height:100px;width:300px;" type="button" class="btn btn-outline-success my-2 mx-2" data-toggle="modal" data-target="#Project2">
+                        <h5 class ="lead mb-0 text-success">Project 2</h5>
+                        <span class="text-white small">Language: C</span>
+                    </button>
+                    <button style="height:100px;width:300px;" type="button" class="btn btn-outline-danger my-2 mx-2" data-toggle="modal" data-target="#Project3">
+                            <h5 class ="lead mb-0 text-danger">Project 3</h5>
+                            <span class="text-white small">Language: Python</span>
+                    </button>
+                    <button style="height:100px;width:300px;" type="button" class="btn btn-outline-warning my-2 mx-2" data-toggle="modal" data-target="#Project4">
+                            <h5 class ="lead mb-0 text-warning">Project 4</h5>
+                            <span class="text-white small">Language: Java</span>
+                    </button>
+                    <button style="height:100px;width:300px;" type="button" class="btn btn-outline-info my-2 mx-2" data-toggle="modal" data-target="#Project5">
+                            <h5 class ="lead mb-0 text-info">Project 5</h5>
+                            <span class="text-white small">Language: HTML/CSS/JS</span>
+                    </button>
+        
+                    <div class="modal fade" id="Project1" tabindex="-1" role="dialog" aria-labelledby="P1" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="P1">Project 1</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class=" modal-body">
+                                    <p class="font-weight-normal">More information about Project 1 coming soon. Stay tuned!</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+                                    <a href="#" class="btn btn-outline-primary" role="button">View Source</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="modal fade" id="Project2" tabindex="-1" role="dialog" aria-labelledby="P2" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="P2">Project 2</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class=" modal-body">
+                                    <p class="font-weight-normal">More information about Project 2 coming soon. Stay tuned!</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+                                    <a href="#" class="btn btn-outline-success" role="button">View Source</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal fade" id="Project3" tabindex="-1" role="dialog" aria-labelledby="P3" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="P3">Project 3</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class=" modal-body">
+                                    <p class="font-weight-normal">More information about Project 3 coming soon. Stay tuned!</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+                                    <a href="#" class="btn btn-outline-danger" role="button">View Source</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal fade" id="Project4" tabindex="-1" role="dialog" aria-labelledby="P4" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="P4">Project 4</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class=" modal-body">
+                                    <p class="font-weight-normal">More information about Project 4 coming soon. Stay tuned!</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+                                    <a href="#" class="btn btn-outline-warning" role="button">View Source</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal fade" id="Project5" tabindex="-1" role="dialog" aria-labelledby="P5" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="P5">Project 5</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class=" modal-body">
+                                    <p class="font-weight-normal">More information about Project 5 coming soon. Stay tuned!</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+                                    <a href="#" class="btn btn-outline-info" role="button">View Source</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            </section>
         </div>
 
+        <div class="container-fluid">
+            <section id="Contact">
+                <div style= "background: transparent !important" class="jumbotron">
+                    <h1 class="lead text-white text-center"><font size="7">Get in touch with me!</font></h1>
+                    <p class="lead text-white text-center">Find me on Github, Linkedin, Devpost or shoot me an Email.</p>  
+                    <p class="lead text-center pr-5">
+                            <a class="btn btn-outline-dark btn-lg" href="https://github.com/dhruvp97" role="button">Github</a>
+                            <a class="btn btn-outline-primary btn-lg" href="https://www.linkedin.com/in/dhruvp97" role="button">Linkedin</a>
+                            <a class="btn btn-outline-info btn-lg" href="https://devpost.com/dhruvp97" role="button">Devpost</a>
+                            <a class="btn btn-outline-danger btn-lg" href="mailto:dhruvp_11@outlook.com" role="button">Email</a>
+                            </p>  
+                    <hr class="my-5 bg-dark">
+                </div>
+            </section>
+        </div>
+       
+        <footer class="bg-black small text-center text-white-50">
+            <div class="container">
+                Copyright &copy; dhruvp97 2018
+            </div>
+        </footer>
+
+        <hr class="my-4 bg-black">
 
 
         <script src="/js/jquery.min.js"></script>
@@ -178,3 +383,4 @@
         <script src="/js/bootstrap.min.js"></script>
     </body>
 </html>
+
